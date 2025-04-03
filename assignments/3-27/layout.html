@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
+  <style>
+    .nav-mobile {
+      display: none;
+    }
+    nav {
+      padding: 1.5 rem 2 rem;
+      background-color: #808080;
+      color: #000000;
+    }
+    .nav-mobile a {
+      display: block;
+      padding: 1.5 rem 2 rem;
+      color: #000000;
+      text-decoration: none;
+    }
+    #check:checked ~ .nav-mobile {
+      display: block;
+    }
+    .checkbtn {
+      font-size: 1.5 rem;
+      color: #000000;
+      cursor: pointer;
+    }
+    header {
+      background-color: #00005f;
+    }
+    h1 {
+      text-align: center;
+      margin-left: 8rem;
+      font-size: 1.75rem;
+      font-family: 'Koulen';
+      color: #ffffff;
+      -webkit-text-stroke: #000000;
+      -webkit-text-stroke-width: 0.25px;
+      line-height: 1.2
+
+    }
+    .Intro {
+      color: #000000;
+      -webkit-text-stroke: #ffffff;
+      -webkit-text-stroke-width: 0.25px;
+    }
+    main {
+      background-color: #808080;
+    }
+    .About {
+      padding: 1.5rem;
+    }
+    h2 {
+      margin-top: -2rem;
+      margin-bottom: -1rem;
+      font-size: 2rem;
+      font-family: 'Koulen';
+      color: #000000;
+      -webkit-text-stroke: #ffffff;
+      -webkit-text-stroke-width: 0.25px;
+      text-align:center;
+    }
+    .WB {
+      text-align: center;
+      font-size: 0.75rem;
+      font-family: 'Koulen';
+      color: #ffffff;
+      -webkit-text-stroke: #000000;
+      -webkit-text-stroke-width: 0.25px;
+      line-height: 1.2
+    }
+    .Skills {
+      margin-top: 1rem;
+    }
+    .Skill-Container {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .Skill {
+      padding: 1rem;
+      border: solid 1px #000000;
+      color: #ffffff;
+      font-family: 'Koulen';
+      -webkit-text-stroke: #000000;
+      -webkit-text-stroke-width: 0.25px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <div class="nav-mobile">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">My Work</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  <main>
+    <header>
+      <h1>Hi! I am <div class="Intro">Hannah Zeilstra</div>and I am a <div class="Intro">game changing analyst</div></h1>
+    </header>
+    <div class="About">
+      <h2>About Me</h2>
+      <p class="WB">I put some text ewbflbejbclqe;epiqbrvepbvlefvbdlfsd,mn eq   e e e lwj f dmnbcijqnecndf d e biepqwn ljd n jbdjbeqbveldb   hbwbjdfbh </p>
+    </div>
+    <div class="Skills">
+      <h2>My Skills</h2>
+      <div class="Skill-Container">
+        <p class="Skill">Python</p>
+        <p class="Skill">R</p>
+        <p class="Skill">Excel</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

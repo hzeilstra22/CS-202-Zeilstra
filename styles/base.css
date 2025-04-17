@@ -84,7 +84,7 @@ nav {
   }
   .WB {
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     font-family: 'Koulen';
     color: #ffffff;
     -webkit-text-stroke: #000000;
@@ -97,14 +97,25 @@ nav {
   .Skill-Container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   .Skill {
-    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 1.25rem;
+    padding-top: 0.5rem;
     border: solid 1px #000000;
     color: #ffffff;
     font-family: 'Koulen';
     -webkit-text-stroke: #000000;
     -webkit-text-stroke-width: 0.25px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .Skill-Icon {
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0rem;
   }
   footer {
     border-top: #000000 solid 0.25rem;

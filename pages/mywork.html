@@ -16,7 +16,7 @@
       } else {
         menu.style.display = "block";
       }
-      const button=document.getElementById('menubutton');
+      const button = document.getElementById('menubutton');
       button.classList.toggle('open');
       if (button.classList.contains('open')) {
         button.innerHTML = "Menu &#9652";
@@ -26,28 +26,38 @@
     }
   </script>
 </head>
+
 <body>
-    <nav class="navbar">
-      <button id='menubutton' onclick="toggleMenu()">Menu &#9662;</button>
-      <div class="dropdown" id="menu">
-        <div class="dropdown-content">
+  <nav class="navbar">
+    <button id='menubutton' onclick="toggleMenu()">Menu &#9662;</button>
+    <div class="dropdown" id="menu">
+      <div class="dropdown-content">
         <a href="../index.html">Home</a>
-        <a href="../pages/about.html">About</a>
-        <a href="../pages/mywork.html">My Work</a>
-        <a href="../pages/contactme.html">Contact Me</a>
-        <a href="../pages/resume.html">Resume</a>
-        </div>
+        <a href="about.html">About</a>
+        <a href="mywork.html">My Work</a>
+        <a href="contactme.html">Contact Me</a>
+        <a href="resume.html">Resume</a>
       </div>
-    </nav>
-    <footer>
-      <p>&copy; Hannah Zeilstra — Data Science & Computer Science Student at Carroll College</p>
-      
-      <div class='footer_links'>
-        <a href="mailto:hzeilstra@icloud.com">Email</a>
-        <a href="https://github.com/hzeilstra22">GitHub</a>
-        <a href="../pages/resume.html" >Resume</a>
+    </div>
+  </nav>
+  <main>
+    <h1>My Work</h1>
+    <div>
+      <h2>Sports Articles</h2>
+      <p class="wb">Check out my articles on baseball statistics and analysis on my Instagram page and Fansided.com!</p>
+      <a href="https://www.instagram.com/diamond_data/"><img class="article-logo" src="../assets/images/logo.jpg" alt="Instagram" class="instagram"></a>
+      <a href="https://calltothepen.com/author/hannahzeilstra"><img class="article-logo" src="../assets/images/fansided.png"></a>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; Hannah Zeilstra — Data Science & Computer Science Student at Carroll College</p>
+
+    <div class="footer_links">
+      <a href="mailto:hzeilstra@icloud.com">Email</a>
+      <a href="https://github.com/hzeilstra22">GitHub</a>
+      <a href="../assets/images/HannahZeilstraResume.pdf" >Resume</a>
       </div>
-    
+
       <p>Built using HTML, CSS, and JavaScript</p>
     </footer>
 </body>

@@ -16,7 +16,7 @@
       } else {
         menu.style.display = "block";
       }
-      const button=document.getElementById('menubutton');
+      const button = document.getElementById('menubutton');
       button.classList.toggle('open');
       if (button.classList.contains('open')) {
         button.innerHTML = "Menu &#9652";
@@ -26,30 +26,31 @@
     }
   </script>
 </head>
+
 <body>
-    <nav class="navbar">
-      <button id='menubutton' onclick="toggleMenu()">Menu &#9662;</button>
-      <div class="dropdown" id="menu">
-        <div class="dropdown-content">
+  <nav class="navbar">
+    <button id="menubutton" onclick="toggleMenu()">Menu &#9662;</button>
+    <div class="dropdown" id="menu">
+      <div class="dropdown-content">
         <a href="../index.html">Home</a>
-        <a href="../pages/about.html">About</a>
-        <a href="../pages/mywork.html">My Work</a>
-        <a href="../pages/contactme.html">Contact Me</a>
-        <a href="../pages/resume.html">Resume</a>
-        </div>
+        <a href="pages/about.html">About</a>
+        <a href="pages/mywork.html">My Work</a>
+        <a href="pages/contactme.html">Contact Me</a>
+        <a href="pages/resume.html">Resume</a>
       </div>
-    </nav>
-    <footer>
-      <p>&copy; Hannah Zeilstra — Data Science & Computer Science Student at Carroll College</p>
-      
-      <div class='footer_links'>
-        <a href="mailto:hzeilstra@icloud.com">Email</a>
-        <a href="https://github.com/hzeilstra22">GitHub</a>
-        <a href="../pages/resume.html" >Resume</a>
-      </div>
-    
-      <p>Built using HTML, CSS, and JavaScript</p>
-    </footer>
+    </div>
+  </nav>
+  <footer>
+    <p>&copy; Hannah Zeilstra — Data Science & Computer Science Student at Carroll College</p>
+
+    <div class="footer_links">
+      <a href="mailto:hzeilstra@icloud.com">Email</a>
+      <a href="https://github.com/hzeilstra22">GitHub</a>
+      <a href="../pages/resume.html">Resume</a>
+    </div>
+
+    <p>Built using HTML, CSS, and JavaScript</p>
+  </footer>
 </body>
 
 </html>

@@ -7,7 +7,6 @@
   <title>Layout</title>
   <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
   <link rel="stylesheet" href="../styles/base.css">
-  <link rel="script" href="scripts/base.js">
   <script>
     function toggleMenu() {
       var menu = document.getElementById("menu");
@@ -16,7 +15,7 @@
       } else {
         menu.style.display = "block";
       }
-      const button=document.getElementById('menubutton');
+      const button = document.getElementById('menubutton');
       button.classList.toggle('open');
       if (button.classList.contains('open')) {
         button.innerHTML = "Menu &#9652";
@@ -26,40 +25,42 @@
     }
   </script>
 </head>
+
 <body>
-    <nav class="navbar">
-      <button id='menubutton' onclick="toggleMenu()">Menu &#9662;</button>
-      <div class="dropdown" id="menu">
-        <div class="dropdown-content">
+  <nav class="navbar">
+    <button id='menubutton' onclick="toggleMenu()">Menu &#9662;</button>
+    <div class="dropdown" id="menu">
+      <div class="dropdown-content">
         <a href="../index.html">Home</a>
-        <a href="../pages/about.html">About</a>
-        <a href="../pages/mywork.html">My Work</a>
-        <a href="../pages/contactme.html">Contact Me</a>
-        <a href="../pages/resume.html">Resume</a>
-        </div>
+        <a href="pages/about.html">About</a>
+        <a href="pages/mywork.html">My Work</a>
+        <a href="pages/contactme.html">Contact Me</a>
+        <a href="pages/resume.html">Resume</a>
       </div>
-    </nav>
-    <main>
-        <h1 class="contact-page-head">Contact Me</h1>
-        <div class="Contact-Page">
-          <p class="Contact-Info">Mobile Phone: 719-231-0273
-            <img src="../assets/images/phone.png" alt="Python" class="Contact-Icon">
-          </p>
-          <p class="Contact-Info">Email: hzeilstra@icloud.com
-            <img src="../assets/images/email.png" alt="Email" class="Contact-Icon">
-          </p>
-    </main>
-    <footer>
-      <p>&copy; Hannah Zeilstra — Data Science & Computer Science Student at Carroll College</p>
-      
-      <div class='footer_links'>
-        <a href="mailto:hzeilstra@icloud.com">Email</a>
-        <a href="https://github.com/hzeilstra22">GitHub</a>
-        <a href="../pages/resume.html" >Resume</a>
-      </div>
-    
-      <p>Built using HTML, CSS, and JavaScript</p>
-    </footer>
+    </div>
+  </nav>
+  <main>
+    <h1 class="contact-page-head">Contact Me</h1>
+    <div class="contact-page">
+      <p class="contact-info">Mobile Phone: 719-231-0273
+        <img src="../assets/images/phone.png" alt="Phone" class="contact-icon">
+      </p>
+      <p class="Contact-Info">Email: hzeilstra@icloud.com
+        <img src="../assets/images/HannahZeilstraResume.pdf" alt=" Email" class="contact-icon">
+      </p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; Hannah Zeilstra — Data Science & Computer Science Student at Carroll College</p>
+
+    <div class="footer_links">
+      <a href="mailto:hzeilstra@icloud.com">Email</a>
+      <a href="https://github.com/hzeilstra22">GitHub</a>
+      <a href="../pages/resume.html">Resume</a>
+    </div>
+
+    <p>Built using HTML, CSS, and JavaScript</p>
+  </footer>
 </body>
 
 </html>

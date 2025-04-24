@@ -16,7 +16,7 @@
       } else {
         menu.style.display = "block";
       }
-      const button=document.getElementById('menubutton');
+      const button = document.getElementById('menubutton');
       button.classList.toggle('open');
       if (button.classList.contains('open')) {
         button.innerHTML = "Menu &#9652";
@@ -26,27 +26,29 @@
     }
   </script>
 </head>
+
 <body>
-    <nav class="navbar">
-      <button id='menubutton' onclick="toggleMenu()">Menu &#9662;</button>
-      <div class="dropdown" id="menu">
-        <div class="dropdown-content">
+  <nav class="navbar">
+    <button id='menubutton' onclick="toggleMenu()">Menu &#9662;</button>
+    <div class="dropdown" id="menu">
+      <div class="dropdown-content">
         <a href="index.html">Home</a>
         <a href="pages/about.html">About</a>
         <a href="pages/mywork.html">My Work</a>
         <a href="pages/contactme.html">Contact Me</a>
-        <a href="pages/resume.html">Resume</a>
-        </div>
+        <a href="assets/images/HannahZeilstraResume.pdf">Resume</a>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <header>
+    <img src="assets/images/portrait.jpeg" alt="Portrait">>
+    <h1>Hi! I am <span class="intro">Hannah Zeilstra </span>and I am a <span class="intro">game changing analyst</span>
+    </h1>
+  </header>
   <main>
-    <header>
-      <img src="assets/images/portrait.jpeg" alt="Portrait">>
-      <h1>Hi! I am <span class="Intro">Hannah Zeilstra </span>and I am a <span class="Intro">game changing analyst</span></h1>
-    </header>
-    <div class="About">
+    <div class="about">
       <h2>About Me</h2>
-      <p class="WB">Self-motivated, high-achieving college student majoring in Data Science and Computer Science.
+      <p class="wb">Self-motivated, high-achieving college student majoring in Data Science and Computer Science.
         My passion is using data to evaluate and enhance player performance and game strategy for the
         sport I love, baseball. I have four years of experience analyzing baseball statistics for my
         Instagram fan page. With a longtime background in softball, I take pride in my high
@@ -55,36 +57,36 @@
     </div>
 
     <h2>My Skills</h2>
-    <div class="Skill-Container">
-      <p class="Skill">Python
-        <img src="assets/images/python.png" alt="Python" class="Skill-Icon">
+    <div class="skill-container">
+      <p class="skill">Python
+        <img src="assets/images/python.png" alt="Python" class="skill-icon">
       </p>
-      <p class="Skill">R
-        <img src="assets/images/R.png" alt="R" class="Skill-Icon">
+      <p class="skill">R
+        <img src="assets/images/R.png" alt="R" class="skill-icon">
       </p>
-      <p class="Skill">Excel
-        <img src="assets/images/excel.png" alt="Excel" class="Skill-Icon">
+      <p class="skill">Excel
+        <img src="assets/images/excel.png" alt="Excel" class="skill-icon">
       </p>
-      <p class="Skill">HTML
-        <img src="assets/images/html.png" alt="HTML" class="Skill-Icon">
+      <p class="skill">HTML
+        <img src="assets/images/html.png" alt="HTML" class="skill-icon">
       </p>
-      <p class="Skill">Java
-        <img src="assets/images/javascript.png" alt="Java" class="Skill-Icon">
+      <p class="skill">Java
+        <img src="assets/images/javascript.png" alt="Java" class="skill-icon">
       </p>
-      <p class="Skill">Rapsodo
-        <img src="assets/images/rapsodo.png" alt="Rapsodo" class="Skill-Icon">
+      <p class="skill">Rapsodo
+        <img src="assets/images/rapsodo.png" alt="Rapsodo" class="skill-icon">
       </p>
     </div>
 
     <footer>
       <p>&copy; Hannah Zeilstra — Data Science & Computer Science Student at Carroll College</p>
-      
-      <div class='footer_links'>
+
+      <div class="footer_links">
         <a href="mailto:hzeilstra@icloud.com">Email</a>
         <a href="https://github.com/hzeilstra22">GitHub</a>
-        <a href="pages/resume.html" >Resume</a>
+        <a href="pages/resume.html">Resume</a>
       </div>
-    
+
       <p>Built using HTML, CSS, and JavaScript</p>
     </footer>
   </main>

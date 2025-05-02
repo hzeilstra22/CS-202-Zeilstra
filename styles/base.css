@@ -189,6 +189,9 @@ footer {
 .about-page {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem;
 }
 .article-logo {
   width: 20rem;

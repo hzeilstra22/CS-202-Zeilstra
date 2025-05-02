@@ -195,3 +195,24 @@ footer {
   height: 20rem;
   padding: 2rem;
 }
+.resume-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.download-button {
+  background-color: #ffffff;
+  color: #000;
+  width: 10rem;
+  font-family: 'Koulen';
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.resume-image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+

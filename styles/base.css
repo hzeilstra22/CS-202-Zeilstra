@@ -193,17 +193,20 @@ footer {
   flex-wrap: wrap;
   padding: 1.5rem;
 }
+
 .article-logo {
   width: 20rem;
   height: 20rem;
   padding: 2rem;
 }
+
 .resume-page {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .download-button {
   background-color: #ffffff;
   color: #000;
@@ -213,9 +216,9 @@ footer {
   border: none;
   cursor: pointer;
 }
+
 .resume-image {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
 }
-
